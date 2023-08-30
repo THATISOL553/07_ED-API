@@ -1,0 +1,13 @@
+spring:
+  datasource: 
+    username: root
+    password: Cva@@51235213
+    url: jdbc:mysql://localhost:3306/PROJECTUSER3_MASTER
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
